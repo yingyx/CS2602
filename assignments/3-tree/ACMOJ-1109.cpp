@@ -38,20 +38,11 @@ void postorder(int x) {
     cout << x << " "; 
 }
 
-int str2num(string s) {
-    int num = 0;
-    for (int i = 0; i < s.size(); i ++) {
-        num *= 10;
-        num += (s[i] - '0');
-    }
-    return num;
-}
-
 int main() {
     string x;
     while (cin >> x) {
         if (x == ".") val.push_back(-1);
-        else val.push_back(str2num(x));
+        else val.push_back(stoi(x));
     }
 
     int idx = 0;
