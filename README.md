@@ -18,6 +18,8 @@
 
 推荐使用 VSCode 插件 [ACMOJ Helper](https://marketplace.visualstudio.com/items?itemName=TheUnknownThing.vscode-acmoj)。
 
+推荐参考网站 [oi-wiki](https://oi-wiki.org/)。
+
 ## 文件结构
 
 ```bash
